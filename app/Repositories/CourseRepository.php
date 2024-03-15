@@ -4,7 +4,7 @@ namespace App\Repositories;
 
 use App\Models\Course;
 
-class Courserepository
+class CourseRepository
 {
     protected $entity;
 

@@ -4,14 +4,14 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Http\Resources\CourseResource;
-use App\Repositories\Courserepository;
+use App\Repositories\CourseRepository;
 use Illuminate\Http\Request;
 
 class CourseController extends Controller
 {
     protected $repository;
 
-    public function __construct(Courserepository $courseRepository)
+    public function __construct(CourseRepository $courseRepository)
     {
         $this->repository = $courseRepository;
     }
