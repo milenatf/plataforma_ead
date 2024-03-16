@@ -15,7 +15,7 @@ class CreateLessonsTable extends Migration
     {
         Schema::create('lessons', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('modulo_id')->nullable(false);
+            $table->uuid('module_id')->nullable(false);
             $table->string('name')->unique();
             $table->string('url')->unique();
             $table->text('description')->nullable();
