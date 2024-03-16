@@ -10,7 +10,7 @@ class ModuleRepository
 
     public function __construct(Module $model)
     {
-        $this->entity = $model;     
+        $this->entity = $model;
     }
 
     public function getModulesCourseById(string $courseId)
