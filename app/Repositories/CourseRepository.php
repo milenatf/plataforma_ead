@@ -10,7 +10,7 @@ class CourseRepository
 
     public function __construct(Course $model)
     {
-        $this->entity = $model;     
+        $this->entity = $model;
     }
 
     public function getAllCourses()
